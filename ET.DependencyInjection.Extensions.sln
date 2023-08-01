@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ET.DependencyInjection.Extensions", "ET.DependencyInjection.Extensions\ET.DependencyInjection.Extensions.csproj", "{5928AAC8-8B0B-486E-A912-717DFF02E082}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ET.DependencyInjection.Extensions.Tests", "ET.DependencyInjection.Extensions.Tests\ET.DependencyInjection.Extensions.Tests.csproj", "{46266BFE-BE0F-4A2F-8D02-19E936D0A11F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5928AAC8-8B0B-486E-A912-717DFF02E082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5928AAC8-8B0B-486E-A912-717DFF02E082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5928AAC8-8B0B-486E-A912-717DFF02E082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5928AAC8-8B0B-486E-A912-717DFF02E082}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46266BFE-BE0F-4A2F-8D02-19E936D0A11F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46266BFE-BE0F-4A2F-8D02-19E936D0A11F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46266BFE-BE0F-4A2F-8D02-19E936D0A11F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46266BFE-BE0F-4A2F-8D02-19E936D0A11F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
