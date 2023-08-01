@@ -43,7 +43,7 @@ public static class ServiceProviderExtensions
             return (TConcrete) instance;
         }
 
-        throw new NoConstructorsFoundException();
+        throw new NoConstructorsFoundException(serviceType);
     }
 
     private static bool TryResolveConstructorParameters(ICollection<Type> implementingServiceTypes, ConstructorInfo constructorInfo, IServiceProvider serviceProvider, IReadOnlyDictionary<string, object> keyedParameters, out IEnumerable<object> dependencies)
